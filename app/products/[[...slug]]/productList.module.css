@@ -1,0 +1,19 @@
+.product-list {
+    padding: 60px 0;
+    text-align: center;
+
+    ul.products {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px; 
+    }
+
+    button.load {
+        margin-top: 40px;
+    }
+    p.error {
+        margin-top: 40px;
+    }
+}

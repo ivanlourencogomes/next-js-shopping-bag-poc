@@ -1,0 +1,21 @@
+.page-header {
+    text-align: center;
+    background-color: var(--light-color);
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.dark {
+        background-color: var(--dark-color);
+        h1 {
+            color: white;
+        }
+    }
+
+    h1 {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 36px;
+    }
+}
